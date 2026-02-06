@@ -84,6 +84,100 @@ Supabase es una excelente opción para desplegar este proyecto con una base de d
 
 5. Despliega el proyecto en una plataforma de tu elección (por ejemplo, Vercel, Netlify) y asegúrate de incluir las variables de entorno necesarias.
 
+## Cómo Desplegar el Proyecto
+
+### Despliegue Local
+
+1. **Clona el repositorio:**
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   ```
+
+2. **Navega al directorio del proyecto:**
+   ```bash
+   cd djavu-pdl
+   ```
+
+3. **Instala las dependencias necesarias:**
+   ```bash
+   npm install
+   ```
+
+4. **Inicia el servidor de desarrollo:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Accede a la aplicación:**
+   Abre tu navegador y ve a `http://localhost:8080`.
+
+### Despliegue en Hostinger
+
+1. **Prepara el entorno:**
+   - Asegúrate de tener un dominio y un plan de hosting activo en Hostinger.
+   - Configura un entorno Node.js en tu servidor.
+
+2. **Construye el proyecto:**
+   ```bash
+   npm run build
+   ```
+
+3. **Sube los archivos al servidor:**
+   - Sube la carpeta `dist/` generada al directorio público de tu servidor usando FTP o el Administrador de Archivos de Hostinger.
+
+4. **Configura el servidor:**
+   - Asegúrate de que el servidor esté configurado para servir archivos estáticos desde la carpeta `dist/`.
+
+5. **Accede a la aplicación:**
+   - Abre tu navegador y ve a tu dominio configurado.
+
+### Otras Opciones de Despliegue
+
+#### Despliegue en Vercel
+
+1. **Instala la CLI de Vercel:**
+   ```bash
+   npm install -g vercel
+   ```
+
+2. **Inicia sesión en Vercel:**
+   ```bash
+   vercel login
+   ```
+
+3. **Despliega el proyecto:**
+   ```bash
+   vercel
+   ```
+
+4. **Sigue las instrucciones:**
+   - Vercel te proporcionará un dominio donde estará alojada tu aplicación.
+
+#### Despliegue en Netlify
+
+1. **Instala la CLI de Netlify:**
+   ```bash
+   npm install -g netlify-cli
+   ```
+
+2. **Inicia sesión en Netlify:**
+   ```bash
+   netlify login
+   ```
+
+3. **Construye el proyecto:**
+   ```bash
+   npm run build
+   ```
+
+4. **Despliega el proyecto:**
+   ```bash
+   netlify deploy
+   ```
+
+5. **Sigue las instrucciones:**
+   - Netlify te proporcionará un dominio donde estará alojada tu aplicación.
+
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas colaborar, por favor abre un issue o envía un pull request con tus cambios.
