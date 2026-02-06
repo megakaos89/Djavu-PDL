@@ -45,7 +45,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
 Para conectar el proyecto a una base de datos local, sigue estos pasos:
 
 1. Configura una base de datos local (por ejemplo, PostgreSQL):
-   - Instala PostgreSQL en tu máquina local.
+   - Instala PostgreSQL en tu PC local.
    - Crea una nueva base de datos para el proyecto.
 
 2. Configura las credenciales de la base de datos:
