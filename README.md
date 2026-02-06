@@ -38,7 +38,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
    npm run dev
    ```
 
-5. Abre tu navegador y accede a `http://localhost:3000` para ver la aplicación.
+5. Abre tu navegador y accede a `http://localhost:8080` para ver la aplicación.
 
 ## Conexión a una Base de Datos Local
 
